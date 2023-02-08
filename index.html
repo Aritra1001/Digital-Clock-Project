@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Digital Clock Project</title>
+  </head>
+  <body>
+    <img src="./media/clock_logo/clock_logo.png" class="clocklogo" />
+    <div class="settime">
+      <div class="child1">
+        <img src="./media/wake_up/wake_up.png" class="logo" />
+        <span class="text">Set wake up time</span>
+        <select class="options">
+          <option class="option1">8AM - 9AM</option>
+          <option class="option1">9AM - 10AM</option>
+          <option class="option1">10AM - 11AM</option>
+          <option class="option1">11AM - 12PM</option>
+        </select>
+      </div>
+      <div class="child2">
+        <img src="./media/lunch_time/lunch_time.png" class="logo" />
+        <span class="text">Set lunch time</span>
+        <select class="options op1">
+          <option class="option1">12PM - 1PM</option>
+          <option class="option1">1PM - 2PM</option>
+          <option class="option1">2PM - 3PM</option>
+          <option class="option1">3PM - 4PM</option>
+        </select>
+      </div>
+      <div class="child3">
+        <img src="./media/nap_time/nap_time.png" class="logo" />
+        <span class="text">Set nap time</span>
+        <select class="options op2">
+          <option class="option1">4PM - 5PM</option>
+          <option class="option1">5PM - 6PM</option>
+          <option class="option1">6PM - 7PM</option>
+        </select>
+      </div>
+      <div class="child4">
+        <img src="./media/nighttime.png" class="logo" />
+        <span class="text">Set night time</span>
+        <select class="options op3">
+          <option class="option1">7PM - 8PM</option>
+          <option class="option1">8PM - 9PM</option>
+          <option class="option1">9PM - 10PM</option>
+          <option class="option1">10PM - 11PM</option>
+        </select>
+      </div>
+    </div>
+    <div class="gm">GOOD MORNING!! WAKE UP!!</div>
+    <button type="button" class="alarm" id="btn">Set Alarm</button>
+    <div class="timebox">
+      <div class="entries">Wake Up Time : 10AM - 11AM</div>
+      <div class="entries">Lunch Time : 12PM - 1PM</div>
+      <div class="entries">Nap Time : 4PM - 5PM</div>
+      <div class="entries">Night Time : 8PM-9AM</div>
+    </div>
+    <div class="digclock">
+      <span class="bg1">TIME</span>
+      <span class="bg" id="hours">10 hours</span><span class="dots">:</span>
+      <span class="bg" id="min">00 mins</span><span class="dots">:</span>
+      <span class="bg" id="sec">01 secs</span>
+      <span class="bg2" id="am">AM</span>
+    </div>
+    <div id="bgbox"></div>
+    <div id="bgbox2"></div>
+    <div class="msg">GRAB SOME HEALTHY BREAKFAST!!!</div>
+    <div class="imgmsg"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
