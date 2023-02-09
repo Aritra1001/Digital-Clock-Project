@@ -73,7 +73,7 @@ button.addEventListener("click",function(){
     if(x === hours){
         msg1.innerText = `GOOD MORNING!! WAKE UP!!`;
         msg2.innerText = `GRAB SOME HEALTHY BREAKFAST!!!`;
-        img.src ="/media/Goodmorning/Goodmorning.png";
+        img.src ="\Goodmorning.png";
     }
 
     
@@ -83,7 +83,7 @@ button.addEventListener("click",function(){
     if(y === hours){
         msg1.innerText = `GOOD AFTERNOON !! TAKE SOME SLEEP`;
         msg2.innerText = `LET'S HAVE SOME LUNCH !!`;
-        img.src = "/media/lunch/lunch.png"
+        img.src = "\lunch.png"
     }
 
     let value3 = option3.value;
@@ -92,7 +92,7 @@ button.addEventListener("click",function(){
     if(z === hours){
         msg1.innerText = `GOOD EVENING !!`;
         msg2.innerText = `STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!`;
-        img.src = "/media/Goodevening/Goodevening.png";
+        img.src = "\Goodevening.png";
     }
 
     let value4 = option4.value;
@@ -102,7 +102,7 @@ button.addEventListener("click",function(){
     if(w === hours){
         msg1.innerText = `GOOD NIGHT !!`;
         msg2.innerText = `CLOSE YOUR EYES AND GO TO SLEEP`;
-        img.src = "/media/Goodnight/Goodnight.png"
+        img.src = "\Goodnight.png"
     }
 })
 

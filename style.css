@@ -103,7 +103,7 @@ body{
 }
 .bg{
     color:#8A11BF;
-    background-image: url("./media/timeline/timeline.png");
+    background-image: url("./timeline.png");
     padding: 25px;
     /* line-height: 51px; */
     font-size: 20px;
@@ -115,7 +115,7 @@ body{
     color:#3D087B;
 }
 #am{
-    background-image: url("./media/AM_svg/AM_svg.png");
+    background-image: url("./AM_svg.png");
     background-repeat: no-repeat;
     padding: 25px;
     color: white;
